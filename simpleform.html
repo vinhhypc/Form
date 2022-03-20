@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oder Form</title>
+</head>
+<body>
+    <form method="get" action="simpleform.html">
+<!-- thuộc tính method để quy định cách dữ liệu gửi lên server(chủ yếu dùng post và get) -->
+<!-- phải đặt tên cho các trường -->
+        <h2>Oder Form</h2>
+        <p>What would you like to buy ?</p>
+        <select>
+            <option value=" ">10$</option>
+            <option>20$</option>
+            <option>30$</option>
+        </select>
+        <p>How many would you like to oder ?</p>
+            <input type="radio" name="money"> 1-10$ <br>
+            <input type="radio" name="money"> 11-20$ <br>
+            <input type="radio" name="money"> 21-30$ <br>
+        <p>Name <span style="color: red;"></span></p>
+            <input type="text" name="firstname" placeholder="FirstName"> 
+            <input type="text" name="lastname" placeholder="LastName">
+        <p>Email</p>
+            <input type="text" name = "email" placeholder="Nhập email">
+        <p>Phone Number</p>
+            <input type="text" name = "phone1" size="5">-
+            <input type="text" name = "phone2" size="5">-
+            <input type="text" name = "phone3"size="5">
+        <!-- Thuộc tính  placeholder dùng cho biết người dùng nhập gì(chữ mờ trong ô textbox) -->
+        <!-- size cho biết kích cỡ ô textbox -->
+        <p><input type="button" name="btSbmit" value="Submit"></p>
+        <!-- value là tên nút -->
+</body>
+</html>
