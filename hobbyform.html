@@ -9,7 +9,9 @@
         h2 {
             background-color: orangered;
             text-align: center;
+            vertical-align: 3px;
             margin: 3px;
+            top: 3px;
         }
         body {
             background-color: aquamarine;
@@ -17,6 +19,10 @@
         form {
             background-color: aliceblue;
             width: 30%;
+            padding: 3px;
+        }
+        #st {
+            vertical-align: top;
         }
     </style>
 </head>
@@ -36,7 +42,7 @@
         </table>
         <table>
             <tr>
-                <td rowspan="4" style="color: blue;">Sở thích</td>
+                <td id="st" rowspan="4" style="color: blue;">Sở thích</td>
                 <td style="color: red;"><input type="checkbox" name="hobby">Thể thao</td>
                 <td style="color: red;"><input type="checkbox" name="hobby">Âm nhạc</td>
                 <td style="color: red;"><input type="checkbox" name="hobby">Đọc sách</td>
