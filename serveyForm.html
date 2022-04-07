@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #age, #salary {
+            width: 50%;
+        }
+        div:hover{
+            background-color: bisque;
+        }
+    text{
+        border-bottom: 30px;
+    }
+    </style>
+</head>
+<body>
+    <hr>
+    <h2>Market Research Survey</h2>
+    <p>Please take a few moments to complete this satisfaction survey.</p>
+    <hr>
+    <form action="" name="survey" >
+    <div>
+        <p><b>What is your age range</b></p><br>
+        <select name="age" id="age">
+            <option value="">18-24</option>
+            <option value="">25-34</option>
+            <option value="">35-50</option>
+            <option value="">50+</option>
+        </select><br>
+    </div>  
+    <div>
+        <p><b>What is your yearly income range?</b></p><br>
+        <select name="salary" id="salary">
+            <option value="">0-25000$</option>
+            <option value="">25000-50000$</option>
+            <option value="">50000-100k$</option>
+            <option value="">100000$+</option>
+        </select><br>
+    </div>
+    <div>
+        <p><b>Gender Identity</b></p><br>
+            <input type="radio" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" name="gender" value="female">
+            <label for="male">Female</label><br>
+            <input type="radio" name="gender" value="None">
+            <label for="male">Nonbinary</label><br>
+            <input type="radio" name="gender" value="other">
+            <label for="male">Other</label><br>
+            &ensp;&ensp;<input type="text"><br>
+        </div>
+        <div>
+        <p><b>Which of the following products have your purchased in the last 2 months. Please check all that apply.</b></p>
+            <input type="checkbox" name="product1" id="product1" value="product1">
+            <label for="product1">Product1</label><br>
+            <input type="checkbox" name="product2" id="product2" value="product2">
+            <label for="product1">Product2</label><br>
+            <input type="checkbox" name="product3" id="product3" value="product3">
+            <label for="product1">Product3</label><br>
+        </div>
+        <div>
+        <p><b>How often would you use our new product?</b></p><br>
+            <input type="radio" name="time" value="daily">
+            <label for="male">Daily</label><br>
+            <input type="radio" name="time" value="weekly">
+            <label for="male">Weekly</label><br>
+            <input type="radio" name="time" value="monthly">
+            <label for="male">Monthly</label><br>  
+        </div> 
+        <div>
+        <p><b>What would you pay for the new product?</b></p><br>
+        <span>$</span><span><input type="text" id="dollar" size="5"></span><span>.</span><span><input type="text" id="cent" size="5"></span>
+        </div>
+        <div>
+        <p><b>What features would you like to see in the new product</b></p>
+            <textarea name="" id="" cols="150" rows="10"></textarea>
+        </div>
+    </form>
+</body>
+</html>
